@@ -11,7 +11,7 @@ communicates with the respective DBMS.
 ```shell script
 #clone
 git clone https://github.com/arenadata/kafka-postgres-connector
-# # build without any tests 
+# build without any tests 
 cd ~/kafka-postgres-connector
 mvn clean
 mvn install -DskipTests=true
